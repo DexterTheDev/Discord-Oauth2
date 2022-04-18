@@ -1,5 +1,5 @@
 {
-  "name": "raw-discord-api",
+  "name": "discord-oauth2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
