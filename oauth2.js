@@ -31,7 +31,7 @@ class Oauth2 {
                     client_id: AuthOptions.clientID,
                     client_secret: AuthOptions.clientSecret,
                     grant_type: "authorization_code",
-                    code,
+                    code: code.toString(),
                     redirect_uri: AuthOptions.callback,
                     scope: AuthOptions.scopes.join(" ")
                 })
